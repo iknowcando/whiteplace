@@ -16,11 +16,20 @@ ul li {
   list-style: none;
 }
 
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 img {
   vertical-align: bottom;
 }
 
-.footer-block .top-footer-block .section-footer-block .button-container .try-now-button13, .main-page .page-section12 .section-container .button-container .try-free-button12, .main-page .page-section10 .container .section-container .text-container10 .button-container .try-now-button10, .main-page .page-section8 .section-container .text-container8 .button-container .try-free-button8, .main-page .page-section7 .container .text-container7 .button-container .try-taskey, .main-page .page-section5 .section-container .text-container5 .button-container .try-now-button5, .main-page .page-section4 .section-container .text-container4 .button-container .try-now-button4, .main-page .page-section3 .section-container .text-container3 .button-container .try-now-button3, .main-page .page-section2 .section-container .text-container2 .button-container .try-free-button2, .main-page .page-section1 .container .wrapper-content-section .text-container .button-container .try-free-button2, .header-block .nav-block .wrapper-el-header .login-block .try-free-button {
+.footer-block .top-footer-block .section-footer-block .button-container .try-now-button13, .main-page .page-section12 .section-container .button-container .try-free-button12, .main-page .page-section10 .container .section-container .text-container10 .button-container .try-now-button10, .main-page .page-section8 .section-container .text-container8 .button-container .try-free-button8, .main-page .page-section7 .container .text-container7 .button-container .try-taskey, .main-page .page-section5 .section-container .text-container5 .button-container .try-now-button5, .main-page .page-section4 .section-container .text-container4 .button-container .try-now-button4, .main-page .page-section3 .section-container .text-container3 .button-container .try-now-button3, .main-page .page-section2 .section-container .text-container2 .button-container .try-free-button2, .main-page .page-section1 .container .wrapper-content-section .text-container .button-container .try-free-button2, .header__navigate .nav-container .auth .btn-arrow {
   position: relative;
   padding: 16px 34px 16px 24px;
   font-size: 18px;
@@ -29,17 +38,17 @@ img {
   color: #FFFFFF;
   border: none;
 }
-.footer-block .top-footer-block .section-footer-block .button-container .try-now-button13 img, .main-page .page-section12 .section-container .button-container .try-free-button12 img, .main-page .page-section10 .container .section-container .text-container10 .button-container .try-now-button10 img, .main-page .page-section8 .section-container .text-container8 .button-container .try-free-button8 img, .main-page .page-section7 .container .text-container7 .button-container .try-taskey img, .main-page .page-section5 .section-container .text-container5 .button-container .try-now-button5 img, .main-page .page-section4 .section-container .text-container4 .button-container .try-now-button4 img, .main-page .page-section3 .section-container .text-container3 .button-container .try-now-button3 img, .main-page .page-section2 .section-container .text-container2 .button-container .try-free-button2 img, .main-page .page-section1 .container .wrapper-content-section .text-container .button-container .try-free-button2 img, .header-block .nav-block .wrapper-el-header .login-block .try-free-button img {
+.footer-block .top-footer-block .section-footer-block .button-container .try-now-button13 img, .main-page .page-section12 .section-container .button-container .try-free-button12 img, .main-page .page-section10 .container .section-container .text-container10 .button-container .try-now-button10 img, .main-page .page-section8 .section-container .text-container8 .button-container .try-free-button8 img, .main-page .page-section7 .container .text-container7 .button-container .try-taskey img, .main-page .page-section5 .section-container .text-container5 .button-container .try-now-button5 img, .main-page .page-section4 .section-container .text-container4 .button-container .try-now-button4 img, .main-page .page-section3 .section-container .text-container3 .button-container .try-now-button3 img, .main-page .page-section2 .section-container .text-container2 .button-container .try-free-button2 img, .main-page .page-section1 .container .wrapper-content-section .text-container .button-container .try-free-button2 img, .header__navigate .nav-container .auth .btn-arrow img {
   position: absolute;
   top: 21px;
   margin-left: 10px;
 }
 
-.footer-block .top-footer-block .section-footer-block .button-container .try-now-button13:hover, .main-page .page-section12 .section-container .button-container .try-free-button12:hover, .main-page .page-section10 .container .section-container .text-container10 .button-container .try-now-button10:hover, .main-page .page-section8 .section-container .text-container8 .button-container .try-free-button8:hover, .main-page .page-section7 .container .text-container7 .button-container .try-taskey:hover, .main-page .page-section5 .section-container .text-container5 .button-container .try-now-button5:hover, .main-page .page-section4 .section-container .text-container4 .button-container .try-now-button4:hover, .main-page .page-section3 .section-container .text-container3 .button-container .try-now-button3:hover, .main-page .page-section2 .section-container .text-container2 .button-container .try-free-button2:hover, .main-page .page-section1 .container .wrapper-content-section .text-container .button-container .try-free-button2:hover, .header-block .nav-block .wrapper-el-header .login-block .try-free-button:hover {
+.footer-block .top-footer-block .section-footer-block .button-container .try-now-button13:hover, .main-page .page-section12 .section-container .button-container .try-free-button12:hover, .main-page .page-section10 .container .section-container .text-container10 .button-container .try-now-button10:hover, .main-page .page-section8 .section-container .text-container8 .button-container .try-free-button8:hover, .main-page .page-section7 .container .text-container7 .button-container .try-taskey:hover, .main-page .page-section5 .section-container .text-container5 .button-container .try-now-button5:hover, .main-page .page-section4 .section-container .text-container4 .button-container .try-now-button4:hover, .main-page .page-section3 .section-container .text-container3 .button-container .try-now-button3:hover, .main-page .page-section2 .section-container .text-container2 .button-container .try-free-button2:hover, .main-page .page-section1 .container .wrapper-content-section .text-container .button-container .try-free-button2:hover, .header__navigate .nav-container .auth .btn-arrow:hover {
   background-color: rgb(255, 228, 146);
   color: #043873;
 }
-.footer-block .top-footer-block .section-footer-block .button-container .try-now-button13:hover img, .main-page .page-section12 .section-container .button-container .try-free-button12:hover img, .main-page .page-section10 .container .section-container .text-container10 .button-container .try-now-button10:hover img, .main-page .page-section8 .section-container .text-container8 .button-container .try-free-button8:hover img, .main-page .page-section7 .container .text-container7 .button-container .try-taskey:hover img, .main-page .page-section5 .section-container .text-container5 .button-container .try-now-button5:hover img, .main-page .page-section4 .section-container .text-container4 .button-container .try-now-button4:hover img, .main-page .page-section3 .section-container .text-container3 .button-container .try-now-button3:hover img, .main-page .page-section2 .section-container .text-container2 .button-container .try-free-button2:hover img, .main-page .page-section1 .container .wrapper-content-section .text-container .button-container .try-free-button2:hover img, .header-block .nav-block .wrapper-el-header .login-block .try-free-button:hover img {
+.footer-block .top-footer-block .section-footer-block .button-container .try-now-button13:hover img, .main-page .page-section12 .section-container .button-container .try-free-button12:hover img, .main-page .page-section10 .container .section-container .text-container10 .button-container .try-now-button10:hover img, .main-page .page-section8 .section-container .text-container8 .button-container .try-free-button8:hover img, .main-page .page-section7 .container .text-container7 .button-container .try-taskey:hover img, .main-page .page-section5 .section-container .text-container5 .button-container .try-now-button5:hover img, .main-page .page-section4 .section-container .text-container4 .button-container .try-now-button4:hover img, .main-page .page-section3 .section-container .text-container3 .button-container .try-now-button3:hover img, .main-page .page-section2 .section-container .text-container2 .button-container .try-free-button2:hover img, .main-page .page-section1 .container .wrapper-content-section .text-container .button-container .try-free-button2:hover img, .header__navigate .nav-container .auth .btn-arrow:hover img {
   display: none;
 }
 
@@ -70,33 +79,38 @@ img {
   padding: 0 220px;
 }
 
-.header-block {
+.header {
   background-color: #043873;
 }
-.header-block .nav-block {
+.header__navigate {
   display: flex;
   justify-content: space-between;
 }
-.header-block .nav-block .logo-block {
+.header__navigate .logo {
   display: flex;
   align-items: center;
 }
-.header-block .nav-block .wrapper-el-header {
+.header__navigate .nav-container {
   display: flex;
+  align-items: center;
+  padding: 16px 0;
 }
-.header-block .nav-block .wrapper-el-header .menu-list {
+.header__navigate .nav-container .menu {
   display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
 }
-.header-block .nav-block .wrapper-el-header .menu-list .menu-link {
-  text-decoration: none;
-}
-.header-block .nav-block .wrapper-el-header .menu-list .menu-item {
+.header__navigate .nav-container .menu__item {
   display: flex;
   align-items: center;
   padding: 13px 0;
+}
+.header__navigate .nav-container .menu__item:hover {
+  text-decoration-line: underline;
+}
+.header__navigate .nav-container .menu__link {
+  text-decoration: none;
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 500;
@@ -104,17 +118,15 @@ img {
   line-height: 23px;
   color: #FFFFFF;
 }
-.header-block .nav-block .wrapper-el-header .menu-list .menu-item .menu-svg {
+.header__navigate .nav-container .menu__svg {
   padding: 10px 10px 10px 15px;
   margin-right: 32px;
 }
-.header-block .nav-block .wrapper-el-header .menu-list .menu-item:hover {
-  text-decoration-line: underline;
-}
-.header-block .nav-block .wrapper-el-header .login-block {
+.header__navigate .nav-container .auth {
   display: flex;
+  align-items: center;
 }
-.header-block .nav-block .wrapper-el-header .login-block .login-button {
+.header__navigate .nav-container .auth__btn {
   font-size: 18px;
   padding: 16px 40px;
   background-color: #4F9CF9;
@@ -124,7 +136,7 @@ img {
   margin-left: 28px;
   border: none;
 }
-.header-block .nav-block .wrapper-el-header .login-block .login-button:hover {
+.header__navigate .nav-container .auth__btn:hover {
   background-color: rgb(255, 228, 146);
   color: #043873;
 }

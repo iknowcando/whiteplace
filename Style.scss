@@ -12,8 +12,18 @@
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
 }
+
 ul li {
   list-style: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 img {
@@ -34,6 +44,7 @@ img {
     margin-left: 10px;
   }
 }
+
 %button-hover{
   background-color:rgba(255, 228, 146, 1);
   color: #043873;
@@ -42,6 +53,7 @@ img {
   }
 
 }
+
 %h2-style{
   font-family: 'Inter';
   font-style: normal;
@@ -50,6 +62,7 @@ img {
   line-height: 87px;
   letter-spacing: -0.02em;
 }
+
 %text-style{
   font-family: 'Inter';
   font-style: normal;
@@ -60,16 +73,15 @@ img {
   padding-top: 24px;
   padding-bottom: 60px;
 }
+
 @mixin stylingH2($color){
   @extend %h2-style;
   color:$color;
 }
+
 @mixin stylingP($color){
   @extend %text-style;
   color:$color;
-}
-body{
-
 }
 
 .container {
@@ -79,78 +91,82 @@ body{
   padding: 0 220px;
 }
 
-.header-block {
-      background-color: #043873;
-      .nav-block {
+.header {
+  background-color: #043873;
+
+  &__navigate {
+    display: flex;
+    justify-content: space-between;
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-container {
+      display: flex;
+      align-items: center;
+      padding: 16px 0;
+      .menu {
         display: flex;
-        justify-content: space-between;
-        .logo-block{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        &__item {
           display: flex;
           align-items: center;
+          padding: 13px 0;
         }
 
-        .wrapper-el-header {
-          display: flex;
-          .menu-list {
-            display: flex;
-            list-style: none;
-            padding: 0;
-            margin: 0;
+        &__item:hover {
+          text-decoration-line: underline;
+        }
 
-            .menu-link {
-              text-decoration: none;
-            }
+        &__link {
+          text-decoration: none;
+          font-family: 'DM Sans';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 23px;
+          color: #FFFFFF;
+        }
 
-            .menu-item {
-              display: flex;
-              align-items: center;
-              padding: 13px 0;
-              font-family: 'DM Sans';
-              font-style: normal;
-              font-weight: 500;
-              font-size: 18px;
-              line-height: 23px;
-              color: #FFFFFF;
-              .menu-svg {
-                padding: 10px 10px 10px 15px;
-                margin-right: 32px;
-              }
-            }
-            .menu-item:hover {
-              text-decoration-line: underline;
-            }
-
-          }
-          .login-block {
-            display: flex;
-
-            .login-button {
-              font-size: 18px;
-              padding: 16px 40px;
-              background-color: #4F9CF9;
-              border-radius: 8px;
-              color: #FFFFFF;
-              margin-right: 24px;
-              margin-left: 28px;
-              border: none;
-            }
-
-            .login-button:hover {
-              background-color: rgba(255, 228, 146, 1);
-              color: #043873;
-            }
-
-            .try-free-button {
-              @extend %button-style;
-            }
-
-            .try-free-button:hover {
-              @extend %button-hover;
-            }
-          }
+        &__svg {
+          padding: 10px 10px 10px 15px;
+          margin-right: 32px;
         }
       }
+      .auth {
+        display: flex;
+        align-items: center;
+        &__btn {
+          font-size: 18px;
+          padding: 16px 40px;
+          background-color: #4F9CF9;
+          border-radius: 8px;
+          color: #FFFFFF;
+          margin-right: 24px;
+          margin-left: 28px;
+          border: none;
+        }
+        &__btn:hover {
+          background-color: rgba(255, 228, 146, 1);
+          color: #043873;
+        }
+
+        .btn-arrow {
+          @extend %button-style;
+        }
+
+        .btn-arrow:hover {
+          @extend %button-hover;
+        }
+      }
+    }
   }
+}
 
 .main-page {
     .page-section1 {
